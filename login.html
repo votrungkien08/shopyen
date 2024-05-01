@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/grid.css">
+</head>
+<body>
+    <div class="app">
+        <div class="top">
+            <!-- top -->
+            <div class="grid wide">
+                <div class="top__nav">
+                        <div class="top__right">
+                            <a href="tel:0353946625">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>0353946625</span>
+                            </a>
+                            <a href="mailto:kiendzsh1@gmail.com">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>kiendzsh1@gmail.com</span>
+                            </a>
+                        </div>
+    
+                        <div class="top__left">
+                            <ul class="top-items">
+                                <li>Đăng nhập</li>
+                                <li>Đăng ký</li>
+                                <li>Hệ thống cửa hàng</li>
+                                <li>Sản phẩm yêu thích</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!-- header -->
+        <div class="header">
+            <div class="grid wide">
+                <div class="header__nav">
+                    <div class="header__logo">
+                        <a href="./index.html">
+                            <img src="./images/logo.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="header__list">
+                        <ul class="header__items">
+                            <li>TRANG CHỦ</li>
+                            <li>GIỚI THIỆU</li>
+                            <li>SẢN PHẨM</li>
+                            <li>TIN TỨC</li>
+                            <li>CẨM NANG</li>
+                            <li>LIÊN HỆ</li>
+                        </ul>
+                    </div>
+                    <div class="header__shopping">
+                            <ul class="header__icons">
+                                <li>
+                                    <a href="">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </li>
+    
+                                <li>
+                                    <a href="">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- baanner -->
+        <div class="banner">
+            <div class="banner__img">
+                <img src="./images/loginwebp.webp" alt="" width="1920" height="550">
+                <div class="banner__text">
+                    <h3>"Đăng Ký Tài Khoản"</h3>
+                    <!-- <p class="banner__sub">Giá trị dinh dưỡng cao, nguồn cung cấp năng lượng tự nhiên</p>
+                    <p class="banner__desc">Hãy khám phá sự tinh túy của Yến Sào - một món quà quý giá mà thiên nhiên ban tặng. Với chất lượng đẳng cấp và giá trị dinh dưỡng cao, Yến Sào đã trở thành biểu tượng của sự sang trọng và sức khỏe.</p> -->
+                </div>
+            </div>
+                
+
+
+        </div>
+
+
+
+        <!-- form login -->
+
+        <div class="login">
+            <div class="grid wide">
+                <form action="" class="form" id="form-login">
+                    <h2>ĐĂNG KÝ</h2>
+                    <!-- <p>Đã có tài khoản, đăng nhập tại đây</p> -->
+                    <div class="form-group ">
+                        <label for="fullname" class="form-label">Tên đầy đủ</label>
+                        <input id="fullname" name="fullname" type="text" placeholder="VD: Trung Kiên" class="form-control">
+                        <span class="form-message"></span>
+                    </div>
+    
+                    <div class="form-group ">
+                        <label for="email" class="form-label">Email</label>
+                        <input id="email" name="fullname" type="text" placeholder="VD: kiendzsh1@gmail.com" class="form-control">
+                        <span class="form-message"></span>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="password" class="form-label">Mật khẩu</label>
+                        <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control">
+                        <span class="form-message"></span>
+                    </div>
+                  
+                    <div class="form-group">
+                        <label for="password_confirmation" class="form-label">Nhập lại mật khẩu</label>
+                        <input id="password_confirmation" name="password_confirmation" placeholder="Nhập lại mật khẩu" type="password" class="form-control">
+                        <span class="form-message"></span>
+                    </div>
+
+                    <button class="login__btn">
+                        Đăng Ký
+                    </button>
+                </form>
+            </div>
+        </div>
+        
+        <!-- bg-footer -->
+        <div class="bg-footer ">
+            <div class="bg-footer__img">
+                <img src="./images/footer-bg.webp" alt="">
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer ">
+            <div class="grid wide">
+                <div class="row sm-gutter">
+                    <div class="col l-3 footer__lists">
+                        <h4>THÔNG TIN CÔNG TY</h4>
+                        <p>Chuyên cung cấp các loại sản phẩm từ yến đảm bảo an toàn – uy tín – chất lượng. Vua Yến là món quà gửi gắm sự yêu thương, nâng niu sức khoẻ cho chính bạn, cho chính những người thân yêu quanh mình.</p>
+                        <ul class="footer__icons">
+                            <li class="footer__icon">
+                                <a href="https://www.facebook.com/TRNGKIEN08">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="footer__icon">
+                                <a href="https://www.youtube.com/watch?v=32sYGCOYJUM">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li class="footer__icon">
+                                <a href="https://www.instagram.com/with__kingg/">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="footer__icon">
+                                <a href="">
+                                    <i class="fa-brands fa-tiktok"></i>
+                                </a>
+                            </li>
+                            <li class="footer__icon">
+                                <a href="">
+                                    <i class="fa-brands fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 footer__lists">
+                        <h4>VỀ CHÚNG TÔI</h4>
+                        <div class="footer__list">
+                            <a href="#">Trang chủ</a>
+                            <a href="#">Giới thiệu</a>
+                            <a href="#">Sản phẩm</a>
+                            <a href="#">Tin tức</a>
+                            <a href="#">Cẩm nang</a>
+                            <a href="#">Liên hệ</a>
+                        </div>
+
+                    </div>
+                    <div class="col l-3 footer__lists">
+                        <h4>CHÍNH SÁCH</h4>
+                        <div class="footer__list">
+                            <a href="#">Chính sách giao hàng</a>
+                            <a href="#">Chính sách đổi trả</a>
+                            <a href="#">Chính sách bán hàng</a>
+                            <a href="#">Chính sách mua hàng</a>
+                        </div>
+                    </div>
+                    <div class="col l-3 footer__lists">
+                        <h4>THÔNG TIN LIÊN HỆ</h4>
+                        <div class="footer__list">
+                            <div class="footer__item">
+                                <i class="fa-solid fa-location-arrow"></i>
+                                <p>Tòa nhà Ladeco, 266 Đội Cấn, Quận Ba Đình, TP Hà Nội</p>
+                            </div>
+                            <div class="footer__item">
+                                <i class="fa-solid fa-phone"></i>
+                                <a href="tel:0353946625">0353946625</a>
+                            </div>
+                            <div class="footer__item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href="mailto:kiendzsh1@gmail.com">kiendzsh1@gmail.com</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copy__boder">
+                    
+                </div>
+                <div class="copy-right">
+                    <p>© Bản quyền thuộc về Lofi Team | Cung cấp bởi</p>
+                <a href="https://www.sapo.vn/?utm_campaign=cpn:kho_theme-plm:footer&utm_source=Tu_nhien&utm_medium=referral&utm_content=fm:text_link-km:-sz:&utm_term=&campaign=kho_theme-sapo">Sapo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./validator.js"></script>
+    <script>
+        Validator({
+            form: '#form-login',
+            errorSelector: '.form-message',
+            rules: [
+                Validator.isRequire('#fullname','Vui Lòng Nhập Tên Đầy Đủ'),
+                Validator.isRequire('#email','Nhập Email Không Chính Xác'),
+                Validator.isEmail('#email','Nhập Email Không Chính Xác'),
+                Validator.isMinLength('#password',6),
+                Validator.isConfirmPW('#password_confirmation', function () {
+                    return document.querySelector('#form-login #password').value;
+                },'Mật Khẩu Nhập Lại Không Chính Xác')
+            ],
+
+
+        })
+
+    </script>
+</body>
+</html>
